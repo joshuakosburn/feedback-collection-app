@@ -1,0 +1,26 @@
+{
+  "name": "feedback-collection-app",
+  "version": "1.0.0",
+  "description": "An application that developers can use to receive feedback from application users",
+  "main": "index.js",
+  "engines": {
+    "node":"14.17.3",
+    "npm":"7.19.1"
+  },
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuakosburn/feedback-collection-app.git"
+  },
+  "author": "Joshua K. Osburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuakosburn/feedback-collection-app/issues"
+  },
+  "homepage": "https://github.com/joshuakosburn/feedback-collection-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
