@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Specific Project files
+keys.js
