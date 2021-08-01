@@ -9,7 +9,7 @@ require('./services/auth');
 const authRouter = require('./routes/auth');
 
 // Connect to DB
-mongoose.connect(keys.db_uri, {useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(keys.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
