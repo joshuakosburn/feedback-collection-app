@@ -20,7 +20,7 @@ const app = express();
 app.use(cookieSession({
     // 30 days in milliseconds
     maxAge: 30 * 24 * 60 * 60 * 1000,
-    keys: [keys.cookie_key]
+    keys: [keys.cookieKey]
 }));
 
 app.use(passport.initialize());
