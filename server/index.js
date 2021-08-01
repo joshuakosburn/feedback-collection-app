@@ -25,7 +25,7 @@ app.use(cookieSession({
 
 app.use(passport.initialize());
 app.use(passport.session());
-app.use('/', authRouter);
+app.use('/login', authRouter);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
