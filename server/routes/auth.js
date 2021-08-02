@@ -18,7 +18,7 @@ router
 ).get(
     '/api/logout',
     (req, res) => {
-        req.logOut();
+        req.logout();
         res.send(req.user);
     }
 );
